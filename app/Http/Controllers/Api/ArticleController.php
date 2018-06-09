@@ -16,4 +16,4 @@ class ArticleController extends Controller
         $articles = Article::where('status', 0)->paginate(10);
         return $articles;
     }
-}
+} 
